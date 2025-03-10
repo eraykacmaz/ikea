@@ -1,5 +1,6 @@
 name: IKEA Stock Checker
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/60 * * * *"  # Runs every 5 minutes
 jobs:
